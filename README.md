@@ -107,7 +107,5 @@ The time series dataset was split into train/test at at ratio 3:1. The models we
 
 ### Justification
 
-The refined model was able to forecast future hourly power consumption to within 36MW MAE, compared to the 2684MW with the ARIMA models. The regressor model forecast follows the trend and seasonality of the unseen test data while the ARIMA models appear to forecast a constant value (the long running mean of the dataset). The xgboost regressor model is a far better predictive model than the ARIMA models both quantitavely and qualitatively
-
-
+The refined model was able to forecast future hourly power consumption to within 36MW MAE, compared to the 2684MW with the ARIMA models. The regressor model forecast follows the trend and seasonality of the unseen test data while the ARIMA models appear to forecast a constant value (the long running mean of the dataset). The xgboost regressor model is a far better predictive model than the ARIMA models both quantitavely and qualitatively.
 
